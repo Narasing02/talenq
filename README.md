@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Banners Carousel:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The dashboard features a dynamic banners carousel.
+Banners are loaded from JSON data and displayed as slides.
+Each banner includes text and an optional button with a link.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+Dynamic Sections and Section Tabs:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The dashboard includes dynamic sections, each represented by a tab.
+Sections are loaded from JSON data and can be expanded to view associated cards.
+Users can click on section tabs to switch between sections.
+Dynamic Cards:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Cards within each section are loaded dynamically based on the selected section.
+Cards come in various types, such as text, numbers, images, and tags.
+Cards may also include optional buttons and links.
+Card Display Limit and "See More" Functionality:
 
-### `npm test`
+By default, only three cards are displayed within each section for improved readability.
+Users can click the "See More" button to reveal all cards related to that section, providing flexibility in content exploration.
+Light/Dark Theme Toggle:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The dashboard supports both light and dark themes.
+Users can toggle between these themes using a "Toggle Theme" button.
+The theme toggle enhances user experience and personalization.
+Responsive Design:
 
-### `npm run build`
+The dashboard is designed to adapt to various screen sizes and devices.
+Media queries and responsive design techniques ensure that the content is accessible and user-friendly on different devices.
+Performance Optimization:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Performance is optimized through techniques like lazy loading and code splitting.
+Lazy loading ensures that assets are loaded only when needed, reducing initial load times.
+Code splitting improves loading efficiency by splitting code into smaller, manageable chunks.
+These features collectively create a dynamic and user-friendly dashboard experience, allowing users to explore content efficiently while customizing the visual theme based on their preferences.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
